@@ -482,7 +482,6 @@ ol {
   margin-bottom: 16px;
 }
 
-
 .social-media-p {
   color: #ffffff;
   margin-bottom: 16px;
@@ -515,7 +514,6 @@ ol {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .icon-list-footer {
   display: flex;
   gap: 16px;
@@ -526,10 +524,9 @@ ol {
 }
 
 .footer-form {
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
-
 
 .footer-form-input {
   width: 264px;
@@ -537,11 +534,11 @@ gap: 24px;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
-  line-height: 2; 
+  line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px; 
+  border-radius: 4px;
   color: #ffffff;
 }
 
@@ -555,7 +552,7 @@ input::placeholder {
 
 .subscribe-btn {
   min-width: 165px;
-  height: 40px; 
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -566,21 +563,18 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-
-
 }
 
 .subscribe {
-margin-bottom: 16px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #ffffff;
-
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .subscribe-btn-svg {
@@ -603,7 +597,8 @@ color: #ffffff;
 
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-overlay.is-open {
@@ -612,13 +607,14 @@ color: #ffffff;
 }
 
 .modal {
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   border-radius: 4px;
   padding-top: 72px;
   padding-right: 24px;
   padding-bottom: 24px;
   padding-left: 24px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
   width: 408px;
   min-height: 584px;
   max-width: 480px;
@@ -630,8 +626,6 @@ color: #ffffff;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .close-btn {
   display: flex;
@@ -647,8 +641,8 @@ color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover {
@@ -666,13 +660,12 @@ color: #ffffff;
 }
 
 .modal-title {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2E2F42;
+  color: #2e2f42;
   margin-top: 24px;
   margin-bottom: 16px;
 }
@@ -680,25 +673,24 @@ color: #ffffff;
 .modal-form {
   display: block;
 
-border-radius: 4px;
-width: 360px;
-height: 336px
+  border-radius: 4px;
+  width: 360px;
+  height: 336px;
 }
 
 .label-container {
   margin-bottom: 8px;
-
 }
 
 .modal-label {
   display: block;
   font-weight: 400;
-font-size: 12px;
+  font-size: 12px;
 
-color: var(--text-color, #8e8f99);
-line-height: 1.17;
-letter-spacing: 0.04em;
-margin-bottom: 4px;
+  color: var(--text-color, #8e8f99);
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .modal-input {
@@ -712,17 +704,15 @@ margin-bottom: 4px;
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .modal-input:focus {
-  border-color: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
- .input-container {
-position: relative;
-
- }
+.input-container {
+  position: relative;
+}
 
 .input-svg {
   position: absolute;
@@ -730,16 +720,14 @@ position: relative;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .input-svg:focus {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
 .form-comment {
-margin-bottom: 16px;
-
+  margin-bottom: 16px;
 }
 
 .textarea-comment {
@@ -756,23 +744,21 @@ margin-bottom: 16px;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .textarea-comment:focus {
-  border-color: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
 .checkbox {
   margin-bottom: 24px;
-
 }
 
 .user-privacy-label {
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: var(--label-color, #8e8f99);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--label-color, #8e8f99);
 }
 
 .privacy-span {
@@ -780,27 +766,26 @@ color: var(--label-color, #8e8f99);
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-
 }
-
 
 .checkbox input[type="checkbox"]:checked + .user-privacy-label .privacy-span {
   background-color: var(--checked-background-color, #404bbf);
   border: none;
-  fill: var(--checked-icon-color, #F4F4FD);
-
+  fill: var(--checked-icon-color, #f4f4fd);
 }
 
 .privacy-link {
   color: var(--link-color, #4d5ae5);
 }
 
- .send-btn {
+.send-btn {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -811,15 +796,15 @@ color: var(--label-color, #8e8f99);
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
-  border: none; 
+  background-color: #4d5ae5;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+}
 
- .send-btn:hover {
-  fill: #ffffff
- }
+.send-btn:hover {
+  fill: #ffffff;
+}
 
- .send-btn:focus {
-  fill: #ffffff
- }
+.send-btn:focus {
+  fill: #ffffff;
+}
