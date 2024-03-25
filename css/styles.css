@@ -722,6 +722,7 @@ input::placeholder {
 .modal-input:focus {
   border-color: #4D5AE5;
 }
+
 .modal-input:focus svg {
   fill: #4D5AE5;
 }
